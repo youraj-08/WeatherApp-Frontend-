@@ -20,7 +20,7 @@ const Weatherapp = () => {
 
     const handleSubmit = async () => {
         try {
-            const response = await fetch('http://localhost:9000/weather', {
+            const response = await fetch('https://weather-app-backend-a33r.onrender.com/weather', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
